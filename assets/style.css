@@ -1,0 +1,93 @@
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.name {
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+}
+
+.guide {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding: 50px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: gray;
+
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 7px 0;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  padding: 0%;
+}
+
+.hero {
+  background-color: white;
+  padding: 0px 50px 0px 50px;
+}
+
+.about-me h2 {
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.about-me__image {
+  width: 200px;
+  height: auto;
+  float: right;
+  padding: 0 0 40px 0;
+  
+}
+
+.about-me__text {
+  font-size: 15px;
+  padding-left: 300px;
+  padding-right: 300px;
+  font-size: 20px;
+}
+
+section div h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.myWork div h2 img {
+  justify-content: center;
+  display: flex;
+}
+
+.myWork h2 {
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.workscreenshot {
+  width: 480px;
+  height: auto;
+}
+
+.contact div a {
+  align-items: center;
+}
+
